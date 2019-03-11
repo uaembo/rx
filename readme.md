@@ -3,20 +3,21 @@
 Introduction mit Rx .NET
 ## Ziel 
 Jeder Teilnehmer:
-* [ ] kennt den konzeptionellen Unterschied zwischen **interactive** vs **reactive** programming
+* [ ] kennt den konzeptionellen Unterschied zwischen **interactive** vs **reactive** programming (Pull vs Push)
 * [ ] hat mindestens eine Challenge bestanden
 * [ ] weiss, wo das Cheat Sheet und die Zusammenfassung zu dieser Übungsstunde zu finden sind
 * [ ]
 
 ## Ablauf:  
-* [Einführung](./einfuehrung.md) (10')
-* Observable + Observer (10')
+* [Einführung](./einfuehrung.md) (5')
+* Observable + Observer (5')
 * LinQ auf "Events" (10')
 * Errorhandling (10')
+* Scheduling (10')
 * ***Pause (5')***
-* Pitfalls (10')
-* Challenges (30')
+* Challenges (inkl. Pitfalls und Pain) (30')
 * Diskussion (15')
+* Wrapup (1')
 
 ## Unterlagen:
 http://reactivex.io/
