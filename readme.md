@@ -4,7 +4,7 @@ Introduction mit Rx .NET
 ## Ziel 
 Jeder Teilnehmer:
 * [ ] kennt den konzeptionellen Unterschied zwischen **interactive** vs **reactive** programming
-* [ ] hat eine Bsp App umgesetzt
+* [ ] hat mindestens eine Challenge bestanden
 * [ ] weiss, wo das Cheat Sheet und die Zusammenfassung zu dieser Übungsstunde zu finden sind
 * [ ]
 
@@ -12,9 +12,11 @@ Jeder Teilnehmer:
 * Einführung (10')
 * Observable + Observer (10')
 * LinQ auf "Events" (10')
-* Errorhandling (20')
+* Errorhandling (10')
+* ***Pause (5')***
+* Pitfalls (10')
 * Challenges (30')
-* Diskussion (20')
+* Diskussion (15')
 
 ## Unterlagen:
 http://reactivex.io/

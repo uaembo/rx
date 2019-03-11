@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reactive.Linq;
 
 namespace RxWorkshop
 {
@@ -7,6 +8,8 @@ namespace RxWorkshop
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            //Observable.FromEventPattern()
         }
     }
 }
