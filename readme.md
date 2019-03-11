@@ -5,7 +5,7 @@ Introduction mit Rx .NET
 Jeder Teilnehmer:
 * [ ] kennt den konzeptionellen Unterschied zwischen **interactive** vs **reactive** programming (Pull vs Push)
 * [ ] hat mindestens eine Challenge bestanden
-* [ ] weiss, wo das Cheat Sheet und die Zusammenfassung zu dieser Übungsstunde zu finden sind
+* [ ] weiss, wo die Unterlagen zu dieser Übungsstunde zu finden sind
 * [ ]
 
 ## Ablauf:  
@@ -38,3 +38,9 @@ TODO:
 * LinQ verwendung, Pipelining
 * Cold vs Hot Observables
 * Überblick wichtigste Operatoren
+* unit testing => https://channel9.msdn.com/Series/Rx-Workshop/Rx-Workshop-Schedulers 5.Min
+=> time based semantics oder sehr lange anhaltende operationen
+
+* invalidoperationexception challenge (UI Thread mit Win Forms proj
+* ObserveOn nutzen , wenn man keine Kontrolle hat, wo Concurrency eingeführt wird (wenn die Source auf irgend einem Thread generiert wurde)
+* alles (OnNext, OnCompleted, OnError) was danach folgt, wird über den execution context des neuen Schedulers verarbeitet
