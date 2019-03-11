@@ -9,7 +9,7 @@ Jeder Teilnehmer:
 * [ ]
 
 ## Ablauf:  
-* Einführung (10')
+* [Einführung](./einfuehrung.md) (10')
 * Observable + Observer (10')
 * LinQ auf "Events" (10')
 * Errorhandling (10')
@@ -26,3 +26,14 @@ https://docs.microsoft.com/en-us/previous-versions/dotnet/reactive-extensions/hh
 https://channel9.msdn.com/Series/Rx-Workshop/Rx-Workshop-Introduction
 
 
+
+TODO:
+
+* wo ein Fehler passiert im EventHandler (.NET) vs die pipeline
+*Observable.FromEventPattern
+
+* Scheduling bsp
+
+* LinQ verwendung, Pipelining
+* Cold vs Hot Observables
+* Überblick wichtigste Operatoren

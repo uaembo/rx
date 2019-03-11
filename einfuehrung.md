@@ -1,10 +1,11 @@
 # Rx Introduction
 
+[**ZURÜCK**](./readme.md) 
 
 Rx ist eine Bibliothek für asynchrones und event basiertes programmieren.
 
 Mit Rx kann man
-1. (asynchrone)data streams repräsentieren (**Observables**)
+1. (asynchrone) data streams repräsentieren (**Observables**)
 2. auf diesen data streams verschiedene Operationen durchgeführen (**LinQ**)
 3. Nebenläufigkeit (concurrency) parametrisieren (**Scheduling**)
 
@@ -24,15 +25,5 @@ Mit Rx kann man
 
 
 
-Beispiele TODO:
-
-* wo ein Fehler passiert im EventHandler (.NET) vs die pipeline
-*Observable.FromEventPattern
-
-* Scheduling bsp
-
-* LinQ verwendung, Pipelining
-* Cold vs Hot Observables
-* Überblick wichtigste Operatoren
 
 
