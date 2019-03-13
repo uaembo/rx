@@ -13,7 +13,7 @@ using System.Windows.Input;
 
 namespace Challenge1
 {
-    //TODO fix 
+    //TODO fix InalidOperationException
     public partial class MainWindow : Window
     {
         private IObservable<DateTime> _dateTimeStream;

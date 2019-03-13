@@ -17,6 +17,15 @@
 * **Pitfall**: Backpressure: Fliesst mehr in die Pipe herein als heraus?
 * **Pitfall**: innerhalb der "Pipeline" auf unsynchronisierte Ressource zugreifen (stateful vs stateless data streaming)
 
+## Kapitel
+
+* [Einführung](./einfuehrung.md) 
+* [Observable](./observables.md) + Observer
+* [Operationen](./operations.md) auf "Events" 
+* [Errorhandling](./errorhandling.md) 
+* [Scheduler](./scheduler.md) 
+* Challenges (inkl. [Pitfalls](./pitfalls.md) )
+
 ## Unterlagen:
 
 [Reactive Documentation ](http://reactivex.io/)
