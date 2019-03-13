@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Reactive.Linq;
 
 namespace RxWorkshop
 {
@@ -7,12 +6,26 @@ namespace RxWorkshop
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Event1Example.Run();
+            //Observers1Example.Run();
+            //Event2Example.Run();
+            //Observers2Example.Run();
+            //LinQ1Example.Run();
+            //LinQ2Example.Run();
 
-            //Observable.FromEventPattern()
-            //scheduler bsp
-            Observable.Timer(TimeSpan.FromSeconds(1)) // Threading.Timer wird genommen -> als default , kann über scheduler angepasst werden
+            //ErrorHandling1Example.Run();
+            //ErrorHandling2Example.Run();
+            //ErrorHandling3Example.Run();
+            //ErrorHandling4Example.Run();
 
+            //ColdObservableExample.Run();
+            //WarmObservableExample.Run();
+            HotObservableExample.Run();
+            
+            //LinQ3Example.Run();
+
+            
+            Console.ReadLine();
         }
     }
 }

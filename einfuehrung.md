@@ -1,12 +1,23 @@
-# Rx Scheduler
+# Rx Introduction
 
 [**ZURÜCK**](./readme.md) 
 
-| Name       | Execution Context | Execution Policy | Clock               |
-|------------|-------------------|------------------|---------------------|
-| ThreadPool | Thread Pool       | ASAP             | Machine Time        |
-| Dispatcher | UI Thread         | Priority FIFO    |  Machine Time       |
-| EventLoop  | Dedicated Thread  | FIFO             | Machine Time        |
-| Immediate  | Current Thread    | Immediate        | Machine Time        |
-| Remote     | Another Process   | FIFO             | Remote Machine Time |
-| Test       | Current Thread    | FIFO             | Virtual Time        |
+Rx ist eine Bibliothek für asynchrones und event basiertes programmieren.
+
+Rx erlaubt es, asynchrone event streams als einfache, composable collections zu behandeln.
+
+Mit Rx kann man
+1. (asynchrone) data streams repräsentieren (**Observables**)
+2. auf diesen data streams verschiedene Operationen durchführen (**LinQ**)
+3. Nebenläufigkeit (concurrency) parametrisieren (**Scheduling**)
+
+* Rx = Observables + LinQ + Scheduler
+
+"Daten-verarbeitungs pipelines"
+
+
+
+
+
+
+
