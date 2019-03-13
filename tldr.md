@@ -13,3 +13,8 @@
 
 * Cold Observable = Observable wird beim subscriben aktiviert
 * Hot Observable = Observable "läuft" bereits. Beim späteren Subscriben fehlen "Events" 
+
+* **Pitfall**: Hot vs Cold Observable : verpass ich events oder nicht? ist die Aktivierung der Observable teuer?
+* **Pitfall**: Backpressure: Fliesst mehr in die Pipe herein als heraus?
+* **Pitfall**: innerhalb der "Pipeline" auf unsynchronisierte Ressource zugreifen (stateful vs stateless data streaming)
+

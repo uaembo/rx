@@ -14,12 +14,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		pitfalls.md = pitfalls.md
 		readme.md = readme.md
 		scheduler.md = scheduler.md
-		tldr.md = tldr.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge1", "Challenge1\Challenge1.csproj", "{5E3754AF-1056-449C-9583-B3617109FD94}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge2", "Challenge2\Challenge2.csproj", "{361BC93A-3687-4F97-81D6-98564512B1EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +32,6 @@ Global
 		{5E3754AF-1056-449C-9583-B3617109FD94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E3754AF-1056-449C-9583-B3617109FD94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E3754AF-1056-449C-9583-B3617109FD94}.Release|Any CPU.Build.0 = Release|Any CPU
-		{361BC93A-3687-4F97-81D6-98564512B1EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{361BC93A-3687-4F97-81D6-98564512B1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{361BC93A-3687-4F97-81D6-98564512B1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{361BC93A-3687-4F97-81D6-98564512B1EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
